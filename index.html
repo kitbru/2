@@ -1,29 +1,14 @@
-<!--
-
-    ©️ 2023 upio
-
-    written by upio inspired by a tiktok video 
-
-    UPDATE:
-    - old code was trash so i am rewriting for fun
--->
-
 <!DOCTYPE html>
 <html>
     <head>
-        <title>1st anniverary</title>
-
+        <title>1st Anniversary</title>
         
-        <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/1fDFHXcykq4iw8Gg7s5hG9?utm_source=generator&theme=0" width="30%" height="100" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
-
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="title" content="Tiktok love letter effect | upio">
         <meta name="description" content="A love letter effect made by upio">
         
-         <link rel="icon" type="image/x-icon" href="Public/favicon.ico">
-    
-          
+        <link rel="icon" type="image/x-icon" href="Public/favicon.ico">
         
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
         <script src="https://cdnjs.cloudflare.com/ajax/libs/markdown-it/13.0.2/markdown-it.min.js"></script>
@@ -48,6 +33,17 @@
                 
                 transition: height 1.5s ease-in-out;
             }
+
+            .spotify-container {
+                position: fixed;
+                bottom: 20px;
+                right: 20px;
+                width: 300px;
+                height: 80px;
+                box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+                border-radius: 10px;
+                overflow: hidden;
+            }
         </style>
 
         <script src="js/script.js"></script>
@@ -64,10 +60,11 @@
                 <i id="solid-heart" class="fa-solid fa-heart fa-beat fa-2x" style="color: #ff0000;"></i>
             </div>
         </div>
-                <!-- Spotify Track Embed -->
+
+        <!-- Spotify Track Embed -->
         <div class="spotify-container">
             <iframe 
-                src="https://open.spotify.com/track/1fDFHXcykq4iw8Gg7s5hG9?si=ebb258709eea4752" 
+                src="https://open.spotify.com/embed/track/1fDFHXcykq4iw8Gg7s5hG9?utm_source=generator&theme=0" 
                 width="100%" 
                 height="100%" 
                 frameborder="0" 
