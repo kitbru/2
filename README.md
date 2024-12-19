@@ -1,4 +1,4 @@
-# Tiktok Love letter effect
+
 > [!IMPORTANT]  
 > If you need any help setting this up, please join my discord server, i dont want to friend request everyone 😭<br>[discord server](https://discord.gg/nue7sWhThk)
 
